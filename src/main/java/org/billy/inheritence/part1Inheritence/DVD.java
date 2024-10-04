@@ -1,4 +1,4 @@
-package org.billy.inheritence;
+package org.billy.inheritence.part1Inheritence;
 
 import jakarta.persistence.Entity;
 

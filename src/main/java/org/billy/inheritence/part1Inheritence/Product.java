@@ -1,11 +1,9 @@
-package org.billy.inheritence;
+package org.billy.inheritence.part1Inheritence;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
